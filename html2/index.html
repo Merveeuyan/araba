@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>js</title>
+</head>
+
+<body>
+   
+    <script>
+      let araba = {
+        marka: "opel",
+        model: "mokka",
+        renk: "yeşil",
+        üretimyili: 2023,
+      }
+      araba.start = function() {
+        alert("araba çalıştırıldı");
+      }
+      araba.start();
+
+      araba.hiz = 0;
+      araba.hiz = function() {
+        alert("hız arttırıldı");
+      }
+      araba.hiz();
+
+      console.log(araba);
+
+      
+
+      let araba2 = {
+        marka: "mercedes",
+        model: "eqs",
+        renk: "siyah",
+        üretimyili: 2023,
+      }
+      araba2.start = function() {
+        alert("araba çalıştırıldı");
+      }
+      araba2.start();
+
+      araba2.hiz = 0;
+      araba2.hiz = function() {
+        alert("hız arttırıldı");
+      }
+      araba2.hiz();
+
+      console.log(araba2);
+    </script>
+</body>
+
+</html>
